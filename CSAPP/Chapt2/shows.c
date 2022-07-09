@@ -24,12 +24,12 @@ void show_pointer(void *x){
     show_bytes((byte_pointer) &x, sizeof(void *));
 }
 
-int main(){
-    char s = 'a';
-  
-    int val = 0xA7654321;
-    // this is how you can see the BIG-end or SMALL-end
-    show_bytes(&val, 4);
-
-    return 0;
-}
+//int main(){
+//    unsigned char s = 'a';
+//
+//    int val = 0xA7654321;
+//    // this is how you can see the BIG-end or SMALL-end
+//    show_bytes(&s, 4);
+//
+//    return 0;
+//}

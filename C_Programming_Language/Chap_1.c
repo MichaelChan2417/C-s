@@ -373,8 +373,9 @@ void Row_Fold(int n){
 int main(){
     int c;
 
-    char s[] = "adabc";
+    int x = 0xcfc7;
 
+    printf("%d",x);
 
     return 0;
 }

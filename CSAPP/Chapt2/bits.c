@@ -109,16 +109,41 @@ int logicalNeg(int x){
 // Task 10
 // Counts the minimum number of bits needed to represent x 
 int howManyBits(int x){
-    int highest = (x>>31) & 1;
-    
+    int highest_bit = !((x>>31)+1);
+    int loc;
+
+    int cover = 0x1<<31;
+    x = x & (~cover);  // now the highest bit will be 0
+
+    int bit_16 = (!!(x>>16))<<4;  // bit_16 will contain value-16
+    x = x>>bit_16;
+
+    int bit_8 = (!!(x>>8))<<3;  // bit_8 will contain value-8
+    x = x>>bit_8;
+
+    int bit_4 = (!!(x>>4))<<2;  // bit_16 will contain value-4
+    x = x>>bit_4;
+
+    int bit_2 = (!!(x>>2))<<1;  // bit_8 will contain value-2
+    x = x>>bit_2;
+
+    int bit_1 = (!!(x>>1))<<0; // bit_1 will contail value-1
+    x = x>>bit_1;
+
+    int bit_0 = !!x;
+
+    loc = bit_16 + bit_8 + bit_4 + bit_2 + bit_1 + bit_0;
+
+    return conditional(highest_bit, 32, loc+1);
 }
 
-int main(){
 
-    int x = 0x0;
-    int y = 82, z = 81;
-
-    printf("%d %d", logicalNeg(x), !x);
-
-    return 0;
-}
+//int main(){
+//
+//    int x = 0x0;
+//    int y = 82, z = 81;
+//
+//    printf("%d %d", logicalNeg(x), !x);
+//
+//    return 0;
+//}
