@@ -1,0 +1,3 @@
+C:/Users/GrastChan/Desktop/C++ Primer/cmake-build-debug/CMakeFiles/C___Primer.dir
+C:/Users/GrastChan/Desktop/C++ Primer/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/GrastChan/Desktop/C++ Primer/cmake-build-debug/CMakeFiles/rebuild_cache.dir
