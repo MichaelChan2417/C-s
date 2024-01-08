@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/GrastChan/Desktop/C-s/C++ Primer/Chapter 9
+# Install script for directory: C:/Users/MSI_NB/Desktop/C-s/C++ Primer/Chapter 9
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "E:/Study/CLion/CLion 2022.3.3/bin/mingw/bin/objdump.exe")
+  set(CMAKE_OBJDUMP "D:/STUDY/CLion/CLion 2022.3.3/bin/mingw/bin/objdump.exe")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/GrastChan/Desktop/C-s/C++ Primer/Chapter 9/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/MSI_NB/Desktop/C-s/C++ Primer/Chapter 9/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

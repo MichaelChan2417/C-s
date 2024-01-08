@@ -1,6 +1,6 @@
 The system is: Windows - 10.0.22621 - AMD64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-Compiler: E:/Study/CLion/CLion 2022.3.3/bin/mingw/bin/gcc.exe 
+Compiler: D:/STUDY/CLion/CLion 2022.3.3/bin/mingw/bin/gcc.exe 
 Build flags: 
 Id flags:  
 
@@ -10,10 +10,10 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
 
-The C compiler identification is GNU, found in "C:/Users/GrastChan/Desktop/C-s/C++ Primer/Chapter 9/cmake-build-debug/CMakeFiles/3.24.2/CompilerIdC/a.exe"
+The C compiler identification is GNU, found in "C:/Users/MSI_NB/Desktop/C-s/C++ Primer/Chapter 9/cmake-build-debug/CMakeFiles/3.24.2/CompilerIdC/a.exe"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-Compiler: E:/Study/CLion/CLion 2022.3.3/bin/mingw/bin/g++.exe 
+Compiler: D:/STUDY/CLion/CLion 2022.3.3/bin/mingw/bin/g++.exe 
 Build flags: 
 Id flags:  
 
@@ -23,21 +23,37 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
 
-The CXX compiler identification is GNU, found in "C:/Users/GrastChan/Desktop/C-s/C++ Primer/Chapter 9/cmake-build-debug/CMakeFiles/3.24.2/CompilerIdCXX/a.exe"
+The CXX compiler identification is GNU, found in "C:/Users/MSI_NB/Desktop/C-s/C++ Primer/Chapter 9/cmake-build-debug/CMakeFiles/3.24.2/CompilerIdCXX/a.exe"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: C:/Users/GrastChan/Desktop/C-s/C++ Primer/Chapter 9/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/MSI_NB/Desktop/C-s/C++ Primer/Chapter 9/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):E:/Study/CLion/CLion 2022.3.3/bin/ninja/win/x64/ninja.exe cmTC_761a0 && [1/2] Building C object CMakeFiles/cmTC_761a0.dir/testCCompiler.c.obj
-[2/2] Linking C executable cmTC_761a0.exe
+Run Build Command(s):D:/STUDY/CLion/CLion 2022.3.3/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_b283f/fast && D:/STUDY/CLion/CLion 2022.3.3/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_b283f.dir\build.make CMakeFiles/cmTC_b283f.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/MSI_NB/Desktop/C-s/C++ Primer/Chapter 9/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b283f.dir/testCCompiler.c.obj
+"D:\STUDY\CLion\CLion 2022.3.3\bin\mingw\bin\gcc.exe"   -fdiagnostics-color=always -o CMakeFiles\cmTC_b283f.dir\testCCompiler.c.obj -c "C:\Users\MSI_NB\Desktop\C-s\C++ Primer\Chapter 9\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c"
+Linking C executable cmTC_b283f.exe
+"D:\STUDY\CLion\CLion 2022.3.3\bin\cmake\win\x64\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_b283f.dir\link.txt --verbose=1
+"D:\STUDY\CLion\CLion 2022.3.3\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_b283f.dir/objects.a
+"D:\STUDY\CLion\CLion 2022.3.3\bin\mingw\bin\ar.exe" qc CMakeFiles\cmTC_b283f.dir/objects.a @CMakeFiles\cmTC_b283f.dir\objects1.rsp
+"D:\STUDY\CLion\CLion 2022.3.3\bin\mingw\bin\gcc.exe" -Wl,--whole-archive CMakeFiles\cmTC_b283f.dir/objects.a -Wl,--no-whole-archive -o cmTC_b283f.exe -Wl,--out-implib,libcmTC_b283f.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_b283f.dir\linklibs.rsp
+mingw32-make[1]: Leaving directory 'C:/Users/MSI_NB/Desktop/C-s/C++ Primer/Chapter 9/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 
 Determining if the CXX compiler works passed with the following output:
-Change Dir: C:/Users/GrastChan/Desktop/C-s/C++ Primer/Chapter 9/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/MSI_NB/Desktop/C-s/C++ Primer/Chapter 9/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):E:/Study/CLion/CLion 2022.3.3/bin/ninja/win/x64/ninja.exe cmTC_be62f && [1/2] Building CXX object CMakeFiles/cmTC_be62f.dir/testCXXCompiler.cxx.obj
-[2/2] Linking CXX executable cmTC_be62f.exe
+Run Build Command(s):D:/STUDY/CLion/CLion 2022.3.3/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_0e78f/fast && D:/STUDY/CLion/CLion 2022.3.3/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_0e78f.dir\build.make CMakeFiles/cmTC_0e78f.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/MSI_NB/Desktop/C-s/C++ Primer/Chapter 9/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0e78f.dir/testCXXCompiler.cxx.obj
+"D:\STUDY\CLion\CLion 2022.3.3\bin\mingw\bin\g++.exe"   -fdiagnostics-color=always -o CMakeFiles\cmTC_0e78f.dir\testCXXCompiler.cxx.obj -c "C:\Users\MSI_NB\Desktop\C-s\C++ Primer\Chapter 9\cmake-build-debug\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+Linking CXX executable cmTC_0e78f.exe
+"D:\STUDY\CLion\CLion 2022.3.3\bin\cmake\win\x64\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_0e78f.dir\link.txt --verbose=1
+"D:\STUDY\CLion\CLion 2022.3.3\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_0e78f.dir/objects.a
+"D:\STUDY\CLion\CLion 2022.3.3\bin\mingw\bin\ar.exe" qc CMakeFiles\cmTC_0e78f.dir/objects.a @CMakeFiles\cmTC_0e78f.dir\objects1.rsp
+"D:\STUDY\CLion\CLion 2022.3.3\bin\mingw\bin\g++.exe" -Wl,--whole-archive CMakeFiles\cmTC_0e78f.dir/objects.a -Wl,--no-whole-archive -o cmTC_0e78f.exe -Wl,--out-implib,libcmTC_0e78f.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_0e78f.dir\linklibs.rsp
+mingw32-make[1]: Leaving directory 'C:/Users/MSI_NB/Desktop/C-s/C++ Primer/Chapter 9/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 

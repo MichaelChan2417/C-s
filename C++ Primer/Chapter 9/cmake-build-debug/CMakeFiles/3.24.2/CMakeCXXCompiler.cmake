@@ -1,4 +1,4 @@
-set(CMAKE_CXX_COMPILER "E:/Study/CLion/CLion 2022.3.3/bin/mingw/bin/g++.exe")
+set(CMAKE_CXX_COMPILER "D:/STUDY/CLion/CLion 2022.3.3/bin/mingw/bin/g++.exe")
 set(CMAKE_CXX_COMPILER_ARG1 "")
 set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_CXX_COMPILER_VERSION "11.2.0")
@@ -22,11 +22,11 @@ set(CMAKE_CXX_SIMULATE_VERSION "")
 
 
 
-set(CMAKE_AR "E:/Study/CLion/CLion 2022.3.3/bin/mingw/bin/ar.exe")
-set(CMAKE_CXX_COMPILER_AR "E:/Study/CLion/CLion 2022.3.3/bin/mingw/bin/gcc-ar.exe")
-set(CMAKE_RANLIB "E:/Study/CLion/CLion 2022.3.3/bin/mingw/bin/ranlib.exe")
-set(CMAKE_CXX_COMPILER_RANLIB "E:/Study/CLion/CLion 2022.3.3/bin/mingw/bin/gcc-ranlib.exe")
-set(CMAKE_LINKER "E:/Study/CLion/CLion 2022.3.3/bin/mingw/bin/ld.exe")
+set(CMAKE_AR "D:/STUDY/CLion/CLion 2022.3.3/bin/mingw/bin/ar.exe")
+set(CMAKE_CXX_COMPILER_AR "D:/STUDY/CLion/CLion 2022.3.3/bin/mingw/bin/gcc-ar.exe")
+set(CMAKE_RANLIB "D:/STUDY/CLion/CLion 2022.3.3/bin/mingw/bin/ranlib.exe")
+set(CMAKE_CXX_COMPILER_RANLIB "D:/STUDY/CLion/CLion 2022.3.3/bin/mingw/bin/gcc-ranlib.exe")
+set(CMAKE_LINKER "D:/STUDY/CLion/CLion 2022.3.3/bin/mingw/bin/ld.exe")
 set(CMAKE_MT "")
 set(CMAKE_COMPILER_IS_GNUCXX 1)
 set(CMAKE_CXX_COMPILER_LOADED 1)
